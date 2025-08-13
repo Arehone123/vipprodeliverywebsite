@@ -1,0 +1,21 @@
+/* Additional styles for modal version */
+.contact-container-modal {
+    padding: 0;
+    background-color: transparent;
+}
+
+.contact-card-modal {
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: none;
+}
+
+/* Adjust other styles as needed to fit within the modal */
+@media (max-width: 768px) {
+    .contact-card-modal {
+        flex-direction: column;
+    }
+}

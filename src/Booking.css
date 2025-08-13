@@ -1,0 +1,54 @@
+.booking-container {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.tour-details {
+    text-align: center;
+}
+
+.tour-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.booking-form select, .booking-form input, .card-element {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.policies {
+    background: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background: #00aa6c;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #008f5b;
+}
